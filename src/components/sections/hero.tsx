@@ -32,7 +32,7 @@ export default function HeroSection({
   ];
 
   return (
-    <section id="home" className="relative h-[400vh]">
+    <section id="home" className="relative h-[200vh]">
       <ParallaxBackground images={images} frameCount={variant.frameCount} />
       
       <div className="sticky top-0 h-screen w-full">
