@@ -18,7 +18,7 @@ export const drinkVariants: DrinkVariant[] = [
     description: 'A modern take on a classic soda with a perfect blend of sweet and tart, full of nostalgic flavor.',
     themeColor: '#E5244F',
     webpSequenceUrl: (frame: number) => `https://vojwcqmeohevwcrdejjr.supabase.co/storage/v1/object/public/Oliopop%20Cherry/frame_${padFrame(frame + 1)}_delay-0.041s.webp`,
-    frameCount: 240,
+    frameCount: 192,
   },
   {
     id: 'grape',
@@ -27,7 +27,7 @@ export const drinkVariants: DrinkVariant[] = [
     description: 'A modern functional soda brand inspired by classic flavors but made with better ingredients.',
     themeColor: '#7A3E96',
     webpSequenceUrl: (frame: number) => `https://vojwcqmeohevwcrdejjr.supabase.co/storage/v1/object/public/Oliopop%20Grape/frame_${padFrame(frame)}_delay-0.042s.webp`,
-    frameCount: 240,
+    frameCount: 192,
   },
   {
     id: 'lemon-ginger',
@@ -36,6 +36,6 @@ export const drinkVariants: DrinkVariant[] = [
     description: 'Bright and refreshing citrus soda with natural lemon spark and crisp bubbles.',
     themeColor: '#F5C518',
     webpSequenceUrl: (frame: number) => `https://vojwcqmeohevwcrdejjr.supabase.co/storage/v1/object/public/Oliopop%20Lemon/frame_${padFrame(frame)}_delay-0.042s.webp`,
-    frameCount: 240,
+    frameCount: 192,
   },
 ];

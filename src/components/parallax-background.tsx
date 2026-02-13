@@ -97,7 +97,7 @@ export default function ParallaxBackground({ images, frameCount, className }: Pa
   }, [images, handleScroll]);
 
   return (
-    <div ref={containerRef} className={cn("absolute inset-0 h-[300vh] w-full", className)}>
+    <div ref={containerRef} className={cn("absolute inset-0 h-full w-full", className)}>
       <canvas ref={canvasRef} className="sticky top-0 h-screen w-screen" />
     </div>
   );
